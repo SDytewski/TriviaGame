@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classical Music Trivia Game</title>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container" id="results">
+                <div id="game">
+                    <!---Shows the heading ------->
+                    <h1>Classical Music Trivia Game</h1>
+                    <!--Shows the time remaining---->
+                    <h2 id="remaining-time" class="lead"><span id="timer"></span></h2>
+
+                </div>
+                <!----  <div id="results">
+                </div> --->
+            </div>
+
+
+            <div class="container"></div>
+            <div class="row">
+                <div class="col-xl-12 text-center">
+                    <div id="choices" class="text-center">
+                        <button id="start" class="btn btn-info btn-lg">Start Game</button>
+                        <p></p>
+
+                        <div id="questionfirst">
+                            <ul>Which composer lived between the years 1678 – 1741?</ul>
+                            <form>
+                                <ul>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" value="1" id="true1">Wolfgang Amaedeus
+                                        Mozart
+                                    </label>
+                                    <label class="radio-inline" id="correct1">
+                                        <input type="radio" name="optradio" value="2">Antonio Vivaldi
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" value="3">Ludwig Van Beethoven
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" value="4">Kurt Cobain
+                                    </label>
+
+                                </ul>
+                            </form>
+                        </div>
+
+                    </div>
+                    <!----/choices--->
+
+                </div>
+                <!---column-->
+            </div>
+            <!--/row-->
+            <!---Question 2--->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <div id="choices" class="text-center">
+
+                            <p></p>
+
+                            <div id="questionsecond">
+                                <ul>Musical prodigy Wolfgang Amadeus Mozart is, perhaps, one of the best-known composers
+                                    in Western (art) music. During which musical historical period was he active?</ul>
+                                <form>
+                                    <ul>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio2" value="1">Classical
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio2" value="2">Romantic
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio2" value="3">80's Hair Metal
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio2" value="4">Baroque
+                                        </label>
+
+                                    </ul>
+                                </form>
+                            </div>
+
+                        </div>
+                        <!----/choices--->
+
+                    </div>
+                    <!---column-->
+                </div>
+                <!--/row-->
+            </div>
+
+            <!---Question 3--->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <div id="choices" class="text-center">
+
+                            <p></p>
+
+                            <div id="questionthird">
+                                <ul>Which of these is not a section of the orchestra?</ul>
+                                <form>
+                                    <ul>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio3" value="1">Strings
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio3" value="2">Brass
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio3" value="3">Woodwinds
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio3" value="4">Drums
+                                        </label>
+
+                                    </ul>
+                                </form>
+                            </div>
+
+                        </div>
+                        <!----/choices--->
+
+                    </div>
+                    <!---column-->
+                </div>
+                <!--/row-->
+            </div>
+
+
+
+            <!---Question 4--->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <div id="choices" class="text-center">
+
+                            <p></p>
+
+                            <div id="questionfourth">
+                                <ul>Which composer wrote the piece below? (Hint: It's called the 5th symphony.)</ul>
+
+                                <audio controls>
+                                    <source
+                                        src="https://ia601404.us.archive.org/10/items/Beethovens5th/01SymphonyNo.5InCMinor.mp3"
+                                        type="audio/mpeg">
+                                </audio>
+
+                                <form>
+                                    <ul>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio4" value="1">Igor Stravinsky
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio4" value="2">Frederic Chopin
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio4" value="3">Ludwig van Beethoven
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio4" value="4">Kanye West
+                                        </label>
+
+                                    </ul>
+                                </form>
+                            </div>
+
+                        </div>
+                        <!----/choices--->
+
+                    </div>
+                    <!---column-->
+                </div>
+                <!--/row-->
+            </div>
+
+
+
+            <!---Question 5--->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <div id="choices" class="text-center">
+
+                            <p></p>
+
+                            <div id="questionfifth">
+                                <ul>Which country is Johann Sebastian Bach from?</ul>
+                                <form>
+                                    <ul>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio5" value="1">Germany
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio5" value="2">Denmark
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio5" value="3">Norway
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio5" value="4">Canada
+                                        </label>
+
+                                    </ul>
+                                </form>
+                            </div>
+
+                        </div>
+                        <!----/choices--->
+
+                    </div>
+                    <!---column-->
+                </div>
+                <!--/row-->
+            </div>
+
+
+
+            <!----Done Button--->
+            <button id="done" class="btn btn-info btn-lg">Done</button>
+
+
+        </div> <!---/innercontainer-->
+
+        
+    </div>  <!--/jumbotron-->
+   
+    </div> <!-- /container -->
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
