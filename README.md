@@ -1,1 +1,5 @@
-# TriviaGame
+This is a simple trivia game about classical music.  There is a start button that begins the game. Once you click the button then the game begins. Five questions appear on the screen. A timer starts at 120 seconds and begins to count down. The user can can pick 1 one of 4 answers for each of the 5 questions. If you don't answer a question, it will be added to your "Unanswered" score. If you pick an answer, it can be correct or incorrect.  Once you click "done" before the timer ends, the questions will disappear and your score will be revealed with a number for each of the "Correct" "Incorrect" or "Unaswered" scores.
+If you run out of time and don't hit the "done" button before the 120 seconds end, then your score will be tallied with a number for each of the "Correct" "Incorrect" or "Unaswered" scores.  The answers will disappear and your score will shown.     
+
+I created this game with bootstrap 4, Html 5, CSS 3, JavaScript, and JQuery. Most of the styling was done with bootstrap.  This project is useful because it uses a timer function in JavaScript and uses several variables depending on the users choice.  It also makes use of functions for hiding and revealing elements on the screen.  
+
