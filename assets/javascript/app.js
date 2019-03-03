@@ -11,7 +11,7 @@ var unanswered = 0;
 
  
     //  Set our number counter to 60. This counts down the time
-var number = 100;
+var number = 120;
 
      //  Variable that will hold our interval ID when we execute
     //  the "run" function
@@ -227,7 +227,7 @@ $("#done").on("click", trivia.finishGame);
 console.log(trivia.finishGame);
 
 // This styles the radio buttons
-$(":radio").wrap("<span style='background-color:gray'>");
+$(":radio").wrap("<span style='background-color:none'>");
 
 
 
