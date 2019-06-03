@@ -32,3 +32,4 @@ If a user runs out of time and doesn't hit the "done" button before the 120 seco
 
 This project is useful because it uses a timer function in JavaScript and several variables depending on the users choice. It makes use of functions for hiding and revealing elements on the screen.  An audio file can be clicked for one question which makes the user experience more dynamic.  This is a mobile friendly app. 
 
+Deployed site at https://sdytewski.github.io/TriviaGame/
