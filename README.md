@@ -7,11 +7,12 @@ In this application, I created a trivia game featuring classical music. The app 
 
 **Example 1** A start button is shown on the landing page.  Once a user clicks the "Start Game" button then the game begins. 
 
+
+
+
 ![first-prompt](assets/images/trivia2.png)
 
-**Example 2** Five questions appear on the screen. A timer starts at 120 seconds and begins to count down.
-
-The countown  features the setInterval command for JavaScript timing events.
+**Example 2** Five questions appear on the screen. A timer starts at 120 seconds and begins to count down. The countown  features the setInterval command for JavaScript timing events.
 
 ![first-prompt](assets/images/trivia3.png)
 
@@ -29,5 +30,5 @@ If a user runs out of time and doesn't hit the "done" button before the 120 seco
 
 # Conclusion
 
-This project is useful because it uses a timer function in JavaScript and several variables depending on the users choice. It makes use of functions for hiding and revealing elements on the screen.  An audio file can be clicked for one of the questions making the user experience more dynamic by using sound.  
+This project is useful because it uses a timer function in JavaScript and several variables depending on the users choice. It makes use of functions for hiding and revealing elements on the screen.  An audio file can be clicked for one question which makes the user experience more dynamic.  This is a mobile friendly app. 
 
